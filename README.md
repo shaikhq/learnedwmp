@@ -27,23 +27,23 @@ These approaches enable flexible and efficient creation of templates for various
 The `models` folder is further divided into four subdirectories, each tailored for specific training tasks:  
 
 - **`job_query`:**  
-  - Contains data, notebooks, and resources for training models at the level of individual queries.  
+  - Contains data and notebooks training models at the level of individual queries from Join Order Benchmark (JOB) queries.  
 
 - **`job_workload`:**  
-  - Includes data and notebooks for training models at the workload level (i.e., a batch of queries).  
+  - Includes data and notebooks for training models at the workload level (i.e., a batch of queries) using queries from Join Order Benchmark (JOB) queries.  
 
 - **`tpcds_query`:**  
-  - Provides datasets and notebooks for training query-level models specifically for TPC-DS workloads.  
+  - Provides datasets and notebooks for training query-level models for TPC-DS queries.  
 
 - **`tpcds_workload`:**  
-  - Contains resources for workload-level model training targeting TPC-DS workloads.  
+  - Contains resources for workload-level model training using TPC-DS queries.  
 
 ---
 
 ### Instructions
 
 1. Begin by exploring the folders to understand their purpose and content.  
-2. Follow the provided notebooks and datasets in each folder to replicate or extend the training and template generation approaches described. The following is the suggested order of running code:
+2. Follow the provided notebooks and datasets in each folder to replicate the training and template generation approaches described. The following is the suggested order of running code:
 - First, **`templates`** folder 
 - Second, **`models`** folder
 
