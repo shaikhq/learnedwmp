@@ -1,0 +1,11 @@
+.venv/
+db2con.env
+plans/
+executed_notebooks/
+*.pickle
+.venv
+templates/job-templatizing-queryformer-modified/job_queries_training/
+templates/job-templatizing-queryplan/cluster_data/
+templates/job-templatizing-queryformer-modified/job_queries_training/
+templates/job-templatizing-queryformer-pred-nollm/job_queries_training/
+templates/job-templatizing-llm/custom_cache/
